@@ -1,0 +1,17 @@
+@import url(../css/login-container.css);
+
+.login-container .mail-image {
+    display: flex;
+    justify-content: center;
+    margin-block-end: 2.375rem;
+}
+
+.login-container .button {
+    inline-size: 100%;
+    margin-block-end: 1.875rem;
+}
+
+.login-container .resend-mail {
+    text-align: center;
+    color: var(--gray);
+}
