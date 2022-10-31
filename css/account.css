@@ -1,0 +1,41 @@
+@import url('../css/login-container.css');
+
+.login-container {
+    block-size: 90%;
+}
+
+.login-info {
+    text-align: start;
+}
+
+.form {
+    position: relative;
+    margin: 0;
+    block-size: inherit;
+}
+
+.form input:disabled {
+    background-color: transparent;
+    outline: none;
+}
+
+.form .button {
+    position: absolute;
+    bottom: 0;
+    inline-size: 100%;
+}
+
+@media (min-width:768px) {
+    .login-container {
+        block-size: auto;
+    }
+
+    .form {
+        block-size: auto;
+    }
+
+    .form .button {
+        margin-block-start: 0.6875rem;
+        position: static;
+    }
+}
