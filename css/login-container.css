@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    block-size: 100vh;
+}
+
+.login-container {
+    inline-size: 100%;
+    max-inline-size: 21.5rem;
+    margin-inline: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-block-end: 4.625rem;
+}
+
+.login-info {
+    margin-block-end: 2.625rem;
+    text-align: center;
+}
+
+.login-title {
+    font: var(--lgBold);
+    color: var(--black);
+    margin-block-start: 0;
+    margin-block-end: 0.5625rem;
+}
+
+.login-description {
+    font: var(--lgRegular);
+    color: var(--gray);
+    margin: 0;
+}
+
+@media(min-width:768px) {
+    .logo-container {
+        display: none;
+    }
+}
