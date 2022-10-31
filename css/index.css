@@ -1,6 +1,7 @@
 @import url('./button.css');
 @import url('./icons.css');
 @import url('./form.css');
+@import url('./link.css');
 
 :root {
     --veryLightPink: #C7C7C7;

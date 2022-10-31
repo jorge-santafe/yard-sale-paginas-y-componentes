@@ -1,0 +1,13 @@
+.link {
+    text-decoration: none;
+    text-align: center;
+    color: var(--gray);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link.is-primary {
+    color: var(--hospitalGreen);
+}
