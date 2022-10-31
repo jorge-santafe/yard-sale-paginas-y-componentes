@@ -1,0 +1,28 @@
+@import url('./button.css');
+@import url('./icons.css');
+
+:root {
+    --veryLightPink: #C7C7C7;
+    --textInputField: #F7F7F7;
+    --gray: #797979;
+    --gray10: #E7E7E7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --hospitalGreen: #ACD9B2;
+    --baseFont: 'Quicksand', sans-serif;
+    --lgBold: bold 1.125rem/1.4063rem var(--baseFont);
+    --mdBold: bold 1rem/1.25rem var(--baseFont);
+    --smBold: bold 0.875rem/1.125rem var(--baseFont);
+    --lgMedium: 500 1.125rem/1.4063rem var(--baseFont);
+    --mdMedium: 500 1rem/1.5rem var(--baseFont);
+    --smMedium: 500 14px/1.125rem var(--baseFont);
+    --lgRegular: normal 1.125rem/1.4063rem var(--baseFont);
+    --mdRegular: normal 1rem/1.5rem var(--baseFont);
+    --smRegular: normal 14px/1.125rem var(--baseFont);
+}
+
+body {
+    margin: 0;
+    font: var(--mdRegular);
+}

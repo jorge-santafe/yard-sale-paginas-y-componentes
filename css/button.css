@@ -1,0 +1,48 @@
+.button {
+    display: block;
+    text-decoration: none;
+    color: var(--gray);
+    padding-block: 1.125rem;
+    padding-inline: 1rem;
+    border-radius: 0.625rem;
+    border: none;
+    outline: none;
+    font: var(--lgBold);
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button:active {
+    transform: scale(.98);
+}
+
+.button.is-compact {
+    outline: 1px solid red;
+    inline-size: 40px;
+    block-size: 40px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.button.is-primary {
+    background-color: var(--hospitalGreen);
+    color: var(--white);
+}
+
+.button.is-secondary {
+    outline: 1px solid var(--hospitalGreen);
+    color: var(--hospitalGreen);
+}
+
+.button.is-inactive {
+    background: var(--gray10);
+    color: white;
+}
+
+.button.is-primary,
+.button.is-secondary,
+.button.is-inactive {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}

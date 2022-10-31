@@ -1,0 +1,48 @@
+.icon {
+    display: block;
+    block-size: 40px;
+    inline-size: 40px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.add-to-cart {
+    background-image: url('../icons/add-to-cart.svg');
+}
+
+.added-to-cart {
+    background-image: url('../icons/added-to-cart.svg');
+}
+
+.arrow-down {
+    background-image: url('../icons/arrow-down.svg');
+}
+
+.arrow-left {
+    background-image: url('../icons/arrow-left.svg');
+}
+
+.arrow-right {
+    background-image: url('../icons/arrow-right.svg');
+}
+
+.close {
+    background-image: url('../icons/close.svg');
+}
+
+.menu {
+    background-image: url('../icons/menu.svg');
+}
+
+.search {
+    background-image: url('../icons/search.svg');
+}
+
+.shopping-cart {
+    background-image: url('../icons/shopping-cart.svg');
+}
+
+.shopping-cart-notification {
+    background-image: url('../icons/sihopping-cart-notification.svg');
+}
