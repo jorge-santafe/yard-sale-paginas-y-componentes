@@ -1,0 +1,31 @@
+@import url('../css/login-container.css');
+
+.login-container {
+    block-size: 90%;
+    position: relative;
+}
+
+.login-container .form .button {
+    margin-block-start: 1.125rem;
+}
+
+.login-container .link {
+    display: block;
+}
+
+.login-container .sign-up {
+    position: absolute;
+    bottom: 0;
+    inline-size: 100%;
+}
+
+@media(min-width:768px) {
+    .login-container {
+        block-size: auto;
+    }
+
+    .login-container .sign-up {
+        position: static;
+        margin-block-start: 3.75rem;
+    }
+}
