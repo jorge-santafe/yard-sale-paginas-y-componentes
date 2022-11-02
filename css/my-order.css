@@ -1,0 +1,102 @@
+.wrapper {
+    display: flex;
+    block-size: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container {
+    flex: 1;
+    margin-inline: 1rem;
+    max-inline-size: 405px;
+}
+
+.order-title {
+    font: var(--lgBold);
+    color: var(--black);
+    margin-block-start: 0;
+    margin-block-end: 2.9375rem;
+}
+
+.order-content {
+    padding: 1rem;
+    margin-block-end: 1.5rem;
+    display: flex;
+    border-radius: 0.625rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--textInputField);
+}
+
+.order-info span {
+    display: block;
+}
+
+.order-date {
+    font: var(--mdBold);
+    color: var(--dark);
+}
+
+.cant-order {
+    font: var(--smRegular);
+    color: var(--gray);
+}
+
+.order-price {
+    font: var(--mdBold);
+    font-family: roboto;
+    color: var(--dark);
+}
+
+.container-shoppings {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.shoppings-carts {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 0.625rem;
+    grid-template-columns: auto 1fr 1fr;
+}
+
+.shoppings-carts:hover {
+    background-color: var(--textInputField);
+    opacity: .85;
+}
+
+.shoppings-carts .container-image {
+    inline-size: 76px;
+    block-size: 76px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shoppings-carts .container-image img {
+    inline-size: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.shoppings-carts .product-title {
+    justify-self: start;
+    font: var(--smRegular);
+    color: var(--gray);
+}
+
+.shoppings-carts .product-price {
+    font: var(--mdBold);
+    font-family: roboto;
+    color: var(--dark);
+    justify-self: end;
+    padding-inline-end: 1rem;
+
+}
+
+@media(min-width:768px) {
+    .order-title {
+        display: none;
+    }
+}
