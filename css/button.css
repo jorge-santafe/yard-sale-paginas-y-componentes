@@ -19,7 +19,6 @@
 }
 
 .button.is-compact {
-    outline: 1px solid red;
     inline-size: 40px;
     block-size: 40px;
     padding: 0;
