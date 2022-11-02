@@ -1,0 +1,20 @@
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-menu .link {
+    font: var(--mdMedium);
+    color: var(--veryLightPink);
+    padding-block: 4px;
+}
+
+.navbar-menu .link.is-primary {
+    color: var(--hospitalGreen);
+    padding-inline: 0.875rem;
+    border-radius: 10px;
+    outline: 1px solid var(--hospitalGreen);
+}
