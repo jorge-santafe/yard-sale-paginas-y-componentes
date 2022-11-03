@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+    block-size: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container {
+    margin-inline: 1rem;
+    inline-size: 100%;
+    max-inline-size: 405px;
+}
+
+.order-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-info span {
+    display: block;
+}
+
+.order-date {
+    font: var(--mdBold);
+    color: var(--black);
+    margin-block-end: 0.25rem;
+}
+
+.cant-order {
+    font: var(--smRegular);
+    color: var(--gray);
+}
+
+.order-right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.order-right .order-price {
+    font: var(--mdBold);
+    font-family: roboto;
+    color: var(--dark);
+}
+
+.order-right .button.is-compact {
+    inline-size: 14px;
+    block-size: 14px;
+}
+
+.order-right .icon {
+    inline-size: 12px;
+    block-size: 12px;
+    background-size: contain;
+}
