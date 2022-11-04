@@ -5,6 +5,7 @@
 @import url('./navbar.css');
 @import url('./menu-desktop.css');
 @import url('./menu-mobile.css');
+@import url('./product-details.css');
 
 :root {
     --veryLightPink: #C7C7C7;
